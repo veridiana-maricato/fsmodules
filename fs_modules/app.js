@@ -1,8 +1,8 @@
 const path = require('path')
 
 const caminhoArquivo = path.resolve(__dirname, 'arq.json')
-const escreve = require('./modules/escrever')
-const le = require(`./modules/ler`)
+const escreve = require('./modules/writing')
+const le = require(`./modules/reading`)
 // const pessoas = [
 //     {nome: 'joao'},
 //     {nome: 'maria'},
